@@ -52,6 +52,7 @@ ______| |______ |    \_ __|__ |______ ______| |    \_ __|__ |
 ---------------------------------------------------------------------
 Name: 	SeriesRipper for thewatchseries.to
 Author: andmuchmore 2016
+Version: 0.1
 Date:   22/06/16
 ---------------------------------------------------------------------
 Usage: crawl http://thewatchseries.to/link/ outfile.txt

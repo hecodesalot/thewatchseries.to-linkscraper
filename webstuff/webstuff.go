@@ -24,6 +24,7 @@ func GetWebpage(url string) []string {
 	resp, err := client.Get(url)
 	if err != nil {
 		ErrorURLs = append(ErrorURLs, url)
+		//fix this so we we can retry links that have failed x amount of times
 		return []string{"error"}
 	}
 
