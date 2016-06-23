@@ -16,7 +16,7 @@ import (
 // SeriesLink is the check string for a series link
 var SeriesLink = "serie"
 
-// SeasonLink is the link for each SeasonLink
+// SeasonLink is the link for a season link
 var SeasonLink = "season"
 
 // EpisodeLink is the check string for an episode link
@@ -132,7 +132,7 @@ func processEpsList() {
 		<-results
 		bar.Increment()
 	}
-	bar.FinishPrint("Finished!")
+	bar.FinishPrint("Complete")
 }
 
 func worker(id int, jobs <-chan int, results chan<- int) {
